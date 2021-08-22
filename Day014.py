@@ -1,0 +1,6 @@
+print("** Rabbit & Turtle **")
+x = input("Enter Input:").split()
+t = int(x[0])/(int(x[2])-int(x[1]))
+ans = t*int(x[3])
+formatted_ans = "{:.2f}".format(ans)
+print(formatted_ans)
